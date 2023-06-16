@@ -1,4 +1,4 @@
-# Automation
+# Automation in PyCharm
 
 Upload to Raspberry Pi 4B and run python file
 
