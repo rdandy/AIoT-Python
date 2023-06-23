@@ -1,4 +1,8 @@
 # -*- coding:utf-8 -*-
+"""
+7 segment LED (Common-Cathode (CC))
+
+"""
 from __future__ import annotations
 
 import time, RPi.GPIO as GPIO
