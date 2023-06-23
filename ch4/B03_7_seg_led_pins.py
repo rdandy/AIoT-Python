@@ -18,23 +18,23 @@ for x in seg7:
 # for x in scan:
 #     GPIO.setup(x, GPIO.OUT)
 
-for x in range(len(seg7)):
-    GPIO.output(seg7[x], 0)
+for x in seg7:
+    GPIO.output(x, 0)
 
 try:
     while True:
-        for x in range(len(seg7)):
+        for x in seg7:
             time.sleep(0.3)
-            GPIO.output(seg7[x], 1)
+            GPIO.output(x, 1)
         time.sleep(0.6)
-        for x in range(len(seg7)):
+        for x in seg7:
             time.sleep(0.3)
-            GPIO.output(seg7[x], 0)
+            GPIO.output(x, 0)
         time.sleep(1.0)
 
 except KeyboardInterrupt:
-    for x in range(len(seg7)):
-        GPIO.output(seg7[x], 0)
+    for x in seg7:
+        GPIO.output(x, 0)
 
 # for x in range(4):
 #     GPIO.output(scan[x], 1)

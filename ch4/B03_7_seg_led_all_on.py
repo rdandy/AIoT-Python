@@ -18,5 +18,5 @@ for x in seg7:
 # for x in scan:
 #     GPIO.setup(x, GPIO.OUT)
 
-for x in range(len(seg7)):
-    GPIO.output(seg7[x], 1)
+for x in seg7:
+    GPIO.output(x, 1)
