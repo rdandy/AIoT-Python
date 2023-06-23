@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-7 segment LED (Common-Cathode (CC))
+7 segment LED (5011AS Common-Cathode (CC))
 
 """
 from __future__ import annotations
