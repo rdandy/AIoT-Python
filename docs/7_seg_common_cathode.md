@@ -1,4 +1,4 @@
-# 3 LEDs Circuit  
+# 7 segment LED common cathode
 ### New pins
 ![7_seg_common_cathode.png](images/7_seg_common_cathode.png)
 ### Old pins
